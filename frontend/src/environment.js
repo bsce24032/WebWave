@@ -1,4 +1,4 @@
-let IS_PROD = true;
+let IS_PROD = false;
 
 // local testing set to false and true deployment set to true
 

@@ -3,12 +3,12 @@ import httpStatus from "http-status";
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import server from "../environment.js";
-let server_url = server;
+
 
 export const AuthContext = createContext({});
 
 const client = axios.create({
-    baseURL: `${server_url}/api/v1/users`
+    baseURL: `${server}/api/v1/users`
 })
 
 
